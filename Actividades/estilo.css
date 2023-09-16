@@ -1,0 +1,80 @@
+/* Estilos generales */
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.confirmacion {
+    margin-top: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilos para los subtítulos (h2) modernos */
+h2 {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #555;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 5px;
+}
+
+/* Estilos para los datos de usuario y reserva */
+p {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+/* Estilos para los datos específicos */
+.datos-usuario {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+/* Estilos para el encabezado de sección */
+.encabezado-seccion {
+    background-color: #eee;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+
+/* Botón de volver */
+.volver-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #1a1e22;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.volver-btn:hover {
+    background-color: #011325;
+}
